@@ -120,7 +120,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
         menuPrincipal();
     });
+
+
 });
+
 
 function hacerPedidoOnline() {
     let pedidoOnline = new PedidoOnline();
@@ -221,3 +224,12 @@ class PedidoOnline {
     }
 
 }
+
+let titulo = document.getElementById(`titulo`);
+titulo.innerText = `jamon`
+titulo.style.color = `red`
+
+
+
+
+   
