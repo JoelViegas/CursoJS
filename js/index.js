@@ -143,7 +143,7 @@ class PedidoOnline {
     }
 
     mostrarMenu() {
-        let mensajeMenu = 'Bienvenido a nuestro servicio de Pedidos Online:\n';
+        let mensajeMenu = 'Bienvenido a nuestro servicio de Pedidos Online:\nPara finalizar tu pedido escribe 0.\n';
         mensajeMenu += 'MENU:\n';
         this.menu.forEach((item, index) => {
             if (item.opciones) {
