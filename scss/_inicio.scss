@@ -47,10 +47,17 @@ body {
             color: rgb(213, 255, 25);
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             font-style: italic;
+            
             &:hover{
                 cursor: pointer;
             }
+           a{
+            color: aqua;
+            text-decoration: none;
+
+           }
         }
+          
     }
     
 }

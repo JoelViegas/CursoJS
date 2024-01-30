@@ -50,6 +50,10 @@ body {
 .container .iniciar h1:hover {
   cursor: pointer;
 }
+.container .iniciar h1 a {
+  color: aqua;
+  text-decoration: none;
+}
 
 /* Media query para pantallas más pequeñas */
 @media screen and (max-width: 600px) {
@@ -62,6 +66,38 @@ body {
   .container .javaScriptText h1 {
     font-size: 3rem;
   }
+}
+.bodyDom {
+  background-image: url(../img/color-schemes-combinations-palettes-illustration-cmyk-colors-for-print-color-palette-free-vector.jpg);
+  position: relative;
+}
+.bodyDom header {
+  position: fixed;
+  width: 100%;
+}
+.bodyDom header .simulatorTitle {
+  background-image: url(../img/NvL.gif);
+  height: 50px;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-family: "Roboto Mono", monospace;
+  opacity: 1;
+  z-index: 1;
+}
+.bodyDom header .simulatorTitle h1 {
+  font-size: 1vw;
+  padding: 5px;
+}
+.bodyDom header .navBar {
+  background-color: #f5ebdc;
+  position: relative;
+  z-index: 0;
+  height: 74px;
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=estilo.css.map */
